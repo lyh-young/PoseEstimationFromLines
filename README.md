@@ -1,1 +1,2 @@
 # PoseEstimationFromLines
+基于直线对应的刚体目标的位姿估计，仅需要依赖Opencv2以上的第三方库。
