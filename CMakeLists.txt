@@ -1,7 +1,6 @@
 project(PoseTracking)
 
 cmake_minimum_required(VERSION 3.5)
-#windows下默认链接到Debug模式，需要额外设定路径到release版本
 IF (WIN32 OR WIN64)
     set(Opencv_DIR F:/opencv310/Release/install)
 ENDIF ()
